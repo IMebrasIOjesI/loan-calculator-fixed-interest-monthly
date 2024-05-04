@@ -80,7 +80,6 @@ while loan > 0:
         countpay = countpay + balance
         print(countpay)
         break
-
 totalint = round(countpay - ogLoan, 2)
 intrate = round((totalint / ogLoan) * 100, 2)
 print('Original Amount Loaned:', f'{round(ogLoan,2):,}')
